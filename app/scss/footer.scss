@@ -1,0 +1,135 @@
+$footer-dark: #222;
+
+.pre-footer {
+  padding: 60px 0 80px;
+  background-color: $footer-dark;
+}
+
+.contact-info {
+  padding-right: 15px;
+  padding-left: 15px;
+
+  flex-wrap: nowrap;
+}
+
+.contact-info_mt-5 {
+  margin-top: 5px;
+}
+
+.contact-info_mt-25 {
+  margin-top: 25px;
+}
+
+.contact-info_mt-30 {
+  margin-top: 30px;
+}
+
+.contact-info__icon {
+  margin-right: 15px;
+}
+
+.pre-footer__sub-header {
+  color: #fff;
+  font-family: $Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: -0.45px;
+}
+
+.latest-post {
+  margin-top: 20px;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  @media (max-width: $sm) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.latest-post_mt-10 {
+  margin-top: 10px;
+}
+
+.latest-post__icon {
+  margin-right: 15px;
+}
+
+.latest-post__icon_mr-25 {
+  margin-right: 25px;
+}
+
+.tweet {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.tweet-in-detail {
+  margin-top: 7px;
+}
+
+.tweet-in-detail__main-text,
+.tweet-in-detail__hash-tag,
+.tweet-in-detail__date {
+  color: #fff;
+  line-height: 1.5;
+}
+
+.tweet-in-detail__hash-tag {
+  font-weight: 700;
+}
+
+.tweet-in-detail__date {
+  font-size: 12px;
+}
+
+.footer {
+  padding: 30px 0;
+
+  @media (max-width: $sm) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.copiraght__text {
+  color: #555;
+  font-family: $Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.35px;
+  text-align: center;
+}
+
+.social {
+  @media (max-width: $lg) {
+    justify-content: center!important;
+  }
+
+  @media (max-width: $md) {
+    justify-content: flex-start!important;    
+  }
+
+  @media (max-width: $sm) {
+    justify-content: center!important; 
+    margin-top: 15px;
+  }
+}
+
+.social__icon {
+  margin-right: 7px;
+}
+
+.icon-circle-container {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: $footer-dark;
+	border-radius: 50%;
+}
+

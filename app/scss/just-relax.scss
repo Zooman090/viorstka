@@ -1,0 +1,38 @@
+.relax {
+  background-image: url('../images/relax-bcg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  font-size: 14px;
+}
+
+.just-relax__title {
+  color: #fff;
+  line-height: 55px;
+}
+
+.just-relax__and-char {
+  color: $btn-color;
+}
+
+.just-relax__description {
+  margin-top: 32px;
+  line-height: 1.5;
+}
+
+.description-in-point {
+  margin-top: 7px;
+}
+
+.first-description-point {
+  margin-top: 20px;
+}
+
+.just-relax__button {
+  margin-top: 50px;
+}
+
+.description-in-point__check-mark {
+  margin-right: 20px;
+}
