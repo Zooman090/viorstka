@@ -1,0 +1,85 @@
+$comment: #f9f9f9;
+$authr: #7cc576;
+
+.our-clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.avatar {
+  background-color: $comment;
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+
+  @media (max-width: $lg) {
+    flex-shrink: 0;
+    align-self: center;
+  }
+}
+
+.repulsion {
+  padding: 40px 50px 40px 45px;
+  background-color: $comment;
+
+  @media (max-width: $sm) {
+    right: 10px;
+    top: 10px;
+  }
+}
+
+.comment {
+  margin-top: 60px;
+  flex-wrap: nowrap;
+
+  @media (max-width: $sm) {
+    flex-wrap: wrap;
+  }
+}
+
+.comment_mt-85 {
+  margin-top: 85px;
+}
+
+.repulsion_left-triangel {
+  &:before {
+    content: '';
+    position: absolute;
+    left: -21px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 12px solid transparent;
+    border-right: 21px solid $comment;
+    border-bottom: 12px solid transparent;
+  }
+}
+
+.repulsion_right-triangel {
+  &:after {
+    content: '';
+    position: absolute;
+    right: -21px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 12px solid transparent;
+    border-left: 21px solid $comment;
+    border-bottom: 12px solid transparent;
+  }
+}
+
+.float-right {
+  flex-direction: row-reverse;
+}
+
+.replusion__authr,
+.replusion__text {
+  line-height: 1.5;
+}
+
+.replusion__authr {
+  margin-top: 5px;
+  text-align: center;
+  color: $authr;
+}

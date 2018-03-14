@@ -1,0 +1,58 @@
+.first-screen {
+  background-image: url('../images/first-background-m.png');
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 120px 0;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shadow-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.first-screen__header-text {
+  z-index: 3;
+  position: relative;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 65px;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  text-align: center;
+
+  @media (max-width: $sm) {
+    font-size: 44px;
+  }
+}
+
+.first-screen__sub-header-text {
+  z-index: 3;
+  position: relative;
+  color: #ccc;
+  font-family: $RobotoSlab;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  margin-top: 40px;
+
+  @media (max-width: $sm) {
+    text-align: center;
+  }
+}
+
+.first-screen__button {
+  z-index: 3;
+  position: relative;
+  margin-top: 55px;
+}
